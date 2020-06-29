@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.city {
+  position: relative;
+  width: calc(100%-30px);
+  height: 100vh;
+  background-size: cover;
+  margin: 15px;
+}
+
+#rio-marina {
+  background-image: url("../img/rio-marina.jpg");
+}
+
+.layover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(192,192,192, 0.5);
+}
+
+.nome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
